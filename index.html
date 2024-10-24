@@ -21,21 +21,34 @@ http://www.templatemo.com/tm-468-onetel
     <!-- google web font css -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+    <!-------font------/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
     <!-- navigation -->
-
     <div class="container">
         <div class="navbar navbar-default navbar-static-top" role="navigation">
-            <div class="navbar-header">
+            <div class="navbar-header" style="display: flex;">
+                <a href="#" class="navbar-brand"><img src="images/east-logo.png" class="img-responsive img-east" alt="logo"></a>
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
-			</button>
-                <a href="#" class="navbar-brand"><img src="images/east-logo.png" class="img-responsive" style="width:20%" alt="logo"></a>
+			    </button>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -47,11 +60,29 @@ http://www.templatemo.com/tm-468-onetel
             </div>
         </div>
     </div>
-
     <!-- home section -->
     <div id="home">
         <div class="container">
             <div class="row">
+                <div class="header">
+                    <h1>เทคโนโลยีและนวัตกรรม เชื่อมอุตสาหกรรมแห่งอนาคต</h1>
+                    <h2>EEC-INNOTECH</h2>
+                    <p>CONNECT</p>
+                    <div class="center">
+                        <div class="logo-container">
+                            <img
+                            class="logo-amata"
+                            src="images\amata.jpg"
+                            alt="Logo AMATA"
+                            />
+                            <img class="logo-edu" src="images\edu.jpg" alt="Logo Edu" />
+                            <img class="logo-nia" src="images\nia.png" alt="Logo NIA" />
+                            <img class="logo-sgsw" src="images\sgsw.png" alt="Logo สกสว" />
+                            <img class="logo-buu" src="images\buu.jpg " alt="Logo BUU" />
+                            <img class="logo-east" src="images\east-logo.png" alt="Logo EAST" />
+                        </div>
+                    </div>
+                </div>
                 <!-- 
                 <div class="col-md-5 col-sm-3"></div>
                 <div class="col-md-7 col-sm-9">
@@ -62,31 +93,131 @@ http://www.templatemo.com/tm-468-onetel
             </div>
         </div>
     </div>
-
     <!-- divider section -->
     <div class="divider">
-        <div class="container">
+        <div class="container-card">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="divider-wrapper divider-one">
-                        <i class="fa fa-laptop"></i>
-                        <h2>บริษัท A</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-                    </div>
+                <div class="both-card">
+                    <a href="https://www.vamstack.com/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/vcc.png" class="img-com">
+                            <h2>บริษัท แวมสแตค จำกัด</h2>
+                            <p>Manufacturing Technology</p>
+                        </div>
+                    </div></a>
+                    <a href="https://wasp-dynamics.com/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="images/triplea.png" class="img-ta">
+                            <h2>บริษัท ทริปเปิ้ลเอ เอ็นจิเนียริ่ง แอนด์ ซับพราย จำกัด</h2>
+                            <p>Manufacturing Technology</p>
+                        </div>
+                    </div></a>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="divider-wrapper divider-two">
-                        <i class="fa fa-mobile"></i>
-                        <h2>บริษัท B</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-                    </div>
+                <div class="both-card">
+                    <a href="https://www.cleantech-beyond.com/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/SMF.png" class="img-smf">
+                            <h2>บริษัท คลีนเทค แอนด์ บียอนด์ จำกัด</h2>
+                            <p>Quality Control and Maintenance Technology</p>
+                        </div>
+                    </div></a>
+                    <a href=""><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="" class="img-com">
+                            <h2>บริษัท อินโนวิตี้ เทค จำกัด</h2>
+                            <p>Logistics and Transportation Technology</p>
+                        </div>
+                    </div></a>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="divider-wrapper divider-three">
-                        <i class="fa fa-life-ring"></i>
-                        <h2>บริษัท C</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="both-card">
+                    <a href="https://automationpark.or.th/en/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/automationpark.png" class="img-com">
+                            <h2>EEC Automation Park</h2>
+                            <p>Manufacturing Technology, Energy and Environmental Management Technology</p>
+                        </div>
+                    </div></a>
+                    <a href="https://www.mostori.com/industrial-IoT-products-gs66.html"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="images/mostori.png" class="img-com">
+                            <h2>บริษัท มอสโทริ ออโตเมชั่น จำกัด</h2>
+                            <p>Quality Control and Maintenance Technology</p>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="both-card">
+                    <a href="https://smartfactory-iot.com/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/com-clean.jpg" class="img-com">
+                            <h2>บริษัท สมาร์ทแฟคตอรี่ จำกัด</h2>
+                            <p>Manufacturing Technology, Enterprise service management</p>
+                        </div>
+                    </div></a>
+                    <a href="https://www.facebook.com/profile.php?id=61556923694978"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="images/swp.jpg" class="img-com">
+                            <h2>เขตอุตสาหกรรมซอฟต์แวร์ภาคตะวันออก มหาวิทยาลัยบูรพา</h2>
+                            <p>Enterprise service management</p>
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="both-card">
+                    <a href="https://www.nectec.or.th/smc/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/SMC.png" class="img-smf">
+                            <h2>ศูนย์นวัตกรรมการผลิตยั่งยืน (SMC)</h2>
+                            <p>Manufacturing Technology, Enterprise service management</p>
+                        </div>
+                    </div></a>
+                    <a href="https://deeptrack.deepinnoline.com/"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="images/deep_track.png" class="img-com">
+                            <h2>บริษัท ดีพ อินโน ไลน์ จำกัด</h2>
+                            <p>Manufacturing Technology, Quality Control and Maintenance Technology, Energy and Environmental</p>
+                            <p>Management Technology, Logistics and Transportation Technology, Enterprise service management</p>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="both-card">
+                    <a href="https://www.facebook.com/Geehrm?mibextid=LQQJ4d"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/geerang.jpg" class="img-com">
+                            <h2>บริษัท จีรัง คอร์เปอเรชั่น จำกัด</h2>
+                            <p>Enterprise service management</p>
+                        </div>
+                    </div></a>
+                    <a href="http://merliniumiot.com"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="images/merlinium.png" class="img-com">
+                            <h2>บริษัท เมอร์ลิเนียม โกลด์ จำกัด</h2>
+                            <p>Manufacturing Technology, Quality Control and Maintenance Technology</p>
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="both-card">
+                    <a href="http://www.progtechasia.com"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-one w-card">
+                            <img src="images/progtech.png" class="img-com">
+                            <h2>บริษัท พร็อกเท็ก คอนโทรล จำกัด</h2>
+                            <p>Manufacturing Technology, Quality Control and Maintenance Technology
+                            <span>Energy and Environmental Management Technology</span>
+                            <span>Logistics and Transportation Technology</span>
+                            <span>Enterprise service management</span></p>
+                        </div>
+                    </div></a>
+                    <a href="http://vidsava.com"><div class="col-4 col-6">
+                        <div class="divider-wrapper divider-two w-card">
+                            <img src="" class="img-com">
+                            <h2>หจก.วิศวะ.คอม เว็บ เอ็นจิเนียริ่ง</h2>
+                            <p>Manufacturing Technology, Quality Control and Maintenance Technology</p>
+                        </div>
+                    </div></a>
                 </div>
             </div>
         </div>
